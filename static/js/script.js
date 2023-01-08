@@ -115,6 +115,7 @@ window.addEventListener("resize", function () {
 
 let debug = document.getElementById('debug')
 debug.addEventListener("click", ()=>{
+  respModal.innerHTML  = "Hello Fetching the best possible solution for you.."
   let input = document.getElementById('question').value 
   let url = `/data?query=${input}`
             let r = fetch(url)
@@ -123,6 +124,7 @@ debug.addEventListener("click", ()=>{
             }).then((resp)=>{
                 console.log(resp)
                 // document.querySelector('.hero-text').innerHTML = resp
+              
                 respModal.innerHTML  = resp
                 // setTimeout(() => {
                   
