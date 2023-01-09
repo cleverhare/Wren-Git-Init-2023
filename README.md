@@ -58,4 +58,4 @@ You will be assigned if the issue or recomendation found legit and worth adding.
 
 Thank You very much for reading this till the end..
 
-## Make sure you add your own api key of open ai to get everything working 
+## Make sure you add your own api key of open ai in .env to get everything working 
