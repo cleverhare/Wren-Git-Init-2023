@@ -1,0 +1,10 @@
+{
+   "version": 2,
+   "name": "git-init-2023",
+   "builds": [
+      { "src": "server.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/server.js" }
+   ]
+}
