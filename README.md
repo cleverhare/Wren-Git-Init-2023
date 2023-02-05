@@ -49,7 +49,7 @@ which is intended to use for development purpose, and this command in the backen
 
 Contributions are always welcome!
 
-You have to raise an issue for everychange that you want in the application.
+You have to raise an issue for every change that you want in the application.
 
 You will be assigned if the issue or recomendation found legit and worth adding. 
 
